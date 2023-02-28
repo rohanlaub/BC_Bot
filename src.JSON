@@ -1,0 +1,180 @@
+{
+  "faq": [
+    {
+      "q" : "fitness gram pacer test?",
+      "a" : "a multistage aerobics capacity test that progressively gets more difficult as it continues.",
+      "department": "Sport"
+    }
+  ],
+  "events": [
+    {
+      "title": "Valentine's Ball",
+      "date": "2023-02-17",
+      "time": "18:00 - 22:00",
+      "theme": "Love",
+      "location": "Cafeteria",
+      "department": "SRC",
+      "entrance": 50,
+      "plus_one": true,
+      "description": "Join us for an evening where we celebrate love!"
+    }
+  ],
+  "members": [
+    {
+      "name": "Anke Weitz",
+      "department": "President",
+      "contact": "(+27) 61 513 2885",
+      "hod": true
+    },
+    {
+      "name": "Zander Rosslee",
+      "department": "Vice President",
+      "contact": "578293@student.blegiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Vuyo Mathe",
+      "department": "Vice President",
+      "contact": "578376@student.blegiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Lynnette Fuller",
+      "department": "Student Relations",
+      "contact": "577303@student.belgiumcampus.ac.za",
+      "hod": true
+    },
+    {
+      "name": "Lucky Manamela",
+      "department": "Student Relations",
+      "contact": "577675@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Njabulo Marrengane",
+      "department": "Student Relations",
+      "contact": "(+27) 61 740 0317",
+      "hod": false
+    },
+    {
+      "name": "Tatenda Hlatshwayo",
+      "department": "Events",
+      "contact": "577695@student.belgiumcampus.ac.za",
+      "hod": true
+    },
+    {
+      "name": "Mia van Staden",
+      "department": "Events",
+      "contact": "578692@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Tshepang Mashigo",
+      "department": "Events",
+      "contact": "578012@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Johane Badenhorst",
+      "department": "Marketing",
+      "contact": "577401@student.belgiumcampus.ac.za",
+      "hod": true
+    },
+    {
+      "name": "Leonard Vermeer",
+      "department": "Marketing",
+      "contact": "577309@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Michael Richter",
+      "department": "Finance",
+      "contact": "577302@student.belgiumcampus.ac.za",
+      "hod": true
+    },
+    {
+      "name": "Dineo Kabini",
+      "department": "Outreach",
+      "contact": "576500@student.belgiumcampus.ac.za",
+      "hod": true
+    },
+    {
+      "name": "Tiaan Botes",
+      "department": "Outreach",
+      "contact": "577617@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Katlego Segole",
+      "department": "Outreach",
+      "contact": "577436@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Reinhardt Burger",
+      "department": "Sport",
+      "contact": "578414@student.belgiumcampus.ac.za",
+      "hod": true
+    },
+    {
+      "name": "Edwin Le Cointre",
+      "department": "Sport",
+      "contact": "577328@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Danae Marais",
+      "department": "Clubs",
+      "contact": "578326@student.belgiumcampus.ac.za",
+      "hod": true
+    },
+    {
+      "name": "Jordaan Barrades",
+      "department": "Clubs",
+      "contact": "577848@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Steven Ayensu",
+      "department": "Clubs",
+      "contact": "(+27) 62 116 7891",
+      "hod": false
+    },
+    {
+      "name": "Rohan Laubscher",
+      "department": "Technical",
+      "contact": "578540@student.belgiumcampus.ac.za",
+      "hod": true
+    },
+    {
+      "name": "Louis Weitz",
+      "department": "Technical",
+      "contact": "578296@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Nathan Evans",
+      "department": "Kempton Park SRC",
+      "contact": "(+27) 820 406 4847",
+      "hod": true
+    },
+    {
+      "name": "Arnold Paulson",
+      "department": "Kempton Park SRC",
+      "contact": "577765@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Micah Samuel",
+      "department": "Kempton Park SRC",
+      "contact": "577846@student.belgiumcampus.ac.za",
+      "hod": false
+    },
+    {
+      "name": "Marcus Moen",
+      "department": "Stellenbosch SRC",
+      "contact": "577916@student.belgiumcampus.ac.za",
+      "hod": true
+    }
+  ]
+}
