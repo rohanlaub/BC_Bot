@@ -33,9 +33,7 @@ async def send_src_message(message, user_message, private):
         print(e)
 
 
-def run_discord_bot():
-    TOKEN = 'MTA1MTkzMjg5NDI5MTA1MDU1Nw.Gsaj9G.NymEoTZ1_mWOQ9zD2tMvuvV-NsfIuEMg8LoBbE'
-
+def run_discord_bot(_token: str):
     intents = discord.Intents.all()
     intents.message_content = True
     client = discord.Client(intents=intents)
@@ -308,4 +306,4 @@ def run_discord_bot():
             else:
                 print('role not found.')
 
-    client.run(TOKEN)
+    client.run(_token)
