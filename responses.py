@@ -1,4 +1,3 @@
-import mailer
 import json_filehandler as db
 # TODO: Decide if any private messaging is necessary and apply
 
@@ -79,26 +78,6 @@ def handle_technical_response(message: str) -> str:
                '<tech_rules> : Prints a list of server rules.\n' \
                '<tech_ticket_text> : Prints the instructions to create a ticket.' \
                '```'
-
-    if p_message[:5] == 'email':
-        # TODO: Separate string to allow input/custom message
-
-        subject = 'Email from SRC | Discord Bot'
-        body = p_message[6:]
-        email_sender = 'bcstudent.rc@gmail.com'
-        # TODO: import os. OS variables -> more secure
-        email_password = 'aqejjqwpzfgbcxvh'
-        cclist = ['']
-        email_receiver = ''
-
-        for member in db.Search_department('Technical'):
-            if member['hod']:
-                email_receiver = member["contact"]
-            else:
-                cclist.append(member['contact'])
-
-        mailer.send_email(email_sender, email_password, email_receiver, cclist, subject, body)
-        return 'Email sent'
 
     if p_message == 'rules':
         return '''1. Always be respectful.
