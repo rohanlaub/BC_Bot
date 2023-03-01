@@ -141,18 +141,21 @@ def handle_student_response(message: str) -> str:
             return f':exclamation: Error fetching members'
 
     if p_message == 'faq':
-        return 'not implemented yet...'
+        output_string = ''
+        for faq in db.gib('faq'):
+            output_string += f'"{faq["q"]}"\nDepartment: {faq[faq["department"]]}\n```{faq["a"]}```'
+        return output_string
 
     if p_message[:4] == 'nick':
         return 'coming soon...'
 
     if p_message[:6] == 'events':
-        all_events = ''
+        output_string = ''
         for event in db.gib('events'):
-            all_events += f'**{event["department"]}** | _{event["title"]}_\n' \
+            output_string += f'**{event["department"]}** | _{event["title"]}_\n' \
                           f'**{event["date"]}** : {event["time"]}\n' \
                           f'```{event["description"]}```\n'
-        return all_events
+        return output_string
 
     # default response
     return 'Command not found, try bc_help for a list of commands.'
