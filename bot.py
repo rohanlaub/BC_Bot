@@ -52,7 +52,8 @@ def run_discord_bot(_token: str):
         channel = client.get_channel(1069988373856534611)
         await channel.send(f'{member.mention} welcome to the Belgium Campus Discord.\n\n'
                            f'Please navigate to <#1069989154961768549> to read and accept the rules for the server.\n'
-                           f'Once you accept the rules you will be granted the necessary roles to navigate the server.')
+                           f'Once you accept the rules you will be granted the necessary roles to navigate the server.\n'
+                           f'________________________________________________________________')
 
     # Respond to messages
     @client.event
