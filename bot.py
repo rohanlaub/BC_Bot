@@ -1,5 +1,6 @@
 import discord
 import responses
+import os
 from webserver import keep_alive
 
 student_prefix = 'bc_'
