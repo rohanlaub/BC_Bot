@@ -33,7 +33,7 @@ async def send_src_message(message, user_message, private):
         print(e)
 
 
-def run_discord_bot(_token: str):
+def run_discord_bot():
     intents = discord.Intents.all()
     intents.message_content = True
     client = discord.Client(intents=intents)
@@ -306,5 +306,6 @@ def run_discord_bot(_token: str):
                     print('Member not found.')
             else:
                 print('role not found.')
-
-    client.run(_token)
+                
+    TOKEN = os.getenv("TOKEN")
+    client.run(TOKEN)
