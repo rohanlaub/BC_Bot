@@ -151,8 +151,15 @@ def handle_student_response(message: str) -> str:
 
     if p_message[:6] == 'events':
         output_string = ''
+        search = p_message[7:]
+
         for event in db.gib('events'):
-            output_string += f'**{event["department"]}** | _{event["title"]}_\n' \
+            if len(search) == 0:
+                output_string += f'**{event["department"]}** | _{event["title"]}_\n' \
+                          f'**{event["date"]}** : {event["time"]}\n' \
+                          f'```{event["description"]}```\n'
+            elif search == event["title"]:
+                output_string += f'**{event["department"]}** | _{event["title"]}_\n' \
                           f'**{event["date"]}** : {event["time"]}\n' \
                           f'```{event["description"]}```\n'
         return output_string
