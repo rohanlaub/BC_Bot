@@ -1,6 +1,6 @@
 import discord
 import responses
-import webserver
+from webserver import keep_alive
 
 student_prefix = 'bc_'
 src_prefix = 'src_'
