@@ -1,5 +1,6 @@
 import discord
 import responses
+import webserver
 
 student_prefix = 'bc_'
 src_prefix = 'src_'
@@ -307,5 +308,6 @@ def run_discord_bot():
             else:
                 print('role not found.')
                 
+    keep_alive()
     TOKEN = os.getenv("TOKEN")
     client.run(TOKEN)
