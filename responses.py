@@ -144,6 +144,8 @@ def handle_student_response(message: str) -> str:
         output_string = ''
         for faq in db.gib('faq'):
             output_string += f'"{faq["q"]}"\nDepartment: {faq[faq["department"]]}\n```{faq["a"]}```'
+        
+        print(output_string)
         return output_string
 
     if p_message[:4] == 'nick':
